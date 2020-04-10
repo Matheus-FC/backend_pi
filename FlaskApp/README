@@ -1,0 +1,9 @@
+Teste de aplicações com flask,
+contem Json [CRUD] -> postgresql
+Geojson -> shapelly -> posgis
+json -> postgis.
+
+Dependencias externas:
+postgresql, postgis, e pgAdmin para vizualização.
+
+Necessario Postman para utilização do CRUD.
