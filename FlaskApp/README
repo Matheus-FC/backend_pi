@@ -1,4 +1,4 @@
-Teste de aplicações com flask,
+Teste de aplicações com flask dentro do docker,
 contem Json [CRUD] -> postgresql
 Geojson -> shapelly -> posgis
 json -> postgis.
