@@ -4,7 +4,7 @@ from flask_migrate import Migrate
 
 app = Flask(__name__)
 #Caminho do banco tro car sendo user:password, do jeito q está funciona default, banco user_api tem que estar criado
-app.config['SQLALCHEMY_DATABASE_URI] = "postgresql://postgres:postgres@localhost:5432/user_api
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost:5432/user_api"]
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
@@ -12,7 +12,7 @@ migrate = Migrate(app, db)
 def hello():
     return{"hello": "world"}
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
 
 #Modelo pro banco
 
