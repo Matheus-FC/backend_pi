@@ -70,6 +70,6 @@ def handle_users(user_id):
         db.session.commit()
         return{"message": f"user {user.name} atualizado com sucesso"}
     elif request.method == 'DELETE':
-        db.session delete(user)
+        db.session.delete(user)
         db.session.commit()
         return {"message": f"User {user.name} deletado com sucesso"}
